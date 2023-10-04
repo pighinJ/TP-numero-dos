@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+.logo img {
+    width: 40px; 
+    height: auto;
+    margin-left: 10px; 
+}
+
+/* Estilos para la navegación */
+nav ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav ul li:last-child {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tittle-1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* Estilos para la galería de imágenes */
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.imagen {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Estilos para los enlaces en el encabezado */
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
